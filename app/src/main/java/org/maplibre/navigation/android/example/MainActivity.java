@@ -50,8 +50,7 @@ public class MainActivity extends AppCompatActivity implements PermissionsListen
 
         list.add(new SampleItem(
                 getString(R.string.title_snap_to_route),
-                getString(R.string.description_snap_to_route),
-                FullscreenActivity.class
+                AboutActivity.class
         ));
 
         RecyclerView.Adapter adapter = new MainAdapter(list);

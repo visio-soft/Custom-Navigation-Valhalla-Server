@@ -28,6 +28,10 @@
         "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/drawable-hdpi/paella_icon.png"
     },
     {
+        "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-debug-42:/drawable_flag_of_oman_svg.png.flat",
+        "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/drawable/flag_of_oman_svg.png"
+    },
+    {
         "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-debug-42:/drawable-ldpi_ic_settings.png.flat",
         "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/drawable-ldpi/ic_settings.png"
     },
@@ -52,10 +56,6 @@
         "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/drawable-xhdpi/ic_settings.png"
     },
     {
-        "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-debug-42:/layout_activity_fullscreen.xml.flat",
-        "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/layout/activity_fullscreen.xml"
-    },
-    {
         "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-debug-42:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
@@ -64,16 +64,16 @@
         "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "org.maplibre.navigation.android.example.app-debug-42:/drawable_flag_of_oman_svg.png.flat",
-        "source": "org.maplibre.navigation.android.example.app-main-44:/drawable/flag_of_oman_svg.png"
-    },
-    {
         "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-debug-42:/drawable_ic_new_location.xml.flat",
         "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/drawable/ic_new_location.xml"
     },
     {
         "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-debug-42:/drawable-xhdpi_paella_icon.png.flat",
         "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/drawable-xhdpi/paella_icon.png"
+    },
+    {
+        "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-debug-42:/drawable_whatsapp_image_2025_01_29_at_12_12_56.jpeg.flat",
+        "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/drawable/whatsapp_image_2025_01_29_at_12_12_56.jpeg"
     },
     {
         "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-debug-42:/mipmap-xhdpi_ic_launcher_round.webp.flat",
@@ -116,16 +116,20 @@
         "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/drawable-mdpi/ic_settings.png"
     },
     {
-        "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-debug-42:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/mipmap-xxxhdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-debug-42:/menu_navigation_view_activity_menu.xml.flat",
         "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/menu/navigation_view_activity_menu.xml"
     },
     {
+        "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-debug-42:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
         "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-debug-42:/drawable_ic_car.xml.flat",
         "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/drawable/ic_car.xml"
+    },
+    {
+        "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-debug-42:/layout_activity_about.xml.flat",
+        "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/layout/activity_about.xml"
     },
     {
         "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-debug-42:/drawable-xxhdpi_ic_settings.png.flat",
@@ -140,16 +144,16 @@
         "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
+        "merged": "org.maplibre.navigation.android.example.app-debug-42:/xml_network_security_config.xml.flat",
+        "source": "org.maplibre.navigation.android.example.app-main-44:/xml/network_security_config.xml"
+    },
+    {
         "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-debug-42:/menu_menu_off_route_detection.xml.flat",
         "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/menu/menu_off_route_detection.xml"
     },
     {
         "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-debug-42:/drawable-xxxhdpi_ic_car_top.png.flat",
         "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/drawable-xxxhdpi/ic_car_top.png"
-    },
-    {
-        "merged": "org.maplibre.navigation.android.example.app-debug-42:/layout_activity_fullscreen.xml.flat",
-        "source": "org.maplibre.navigation.android.example.app-main-44:/layout/activity_fullscreen.xml"
     },
     {
         "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-debug-42:/mipmap-xxxhdpi_ic_launcher.webp.flat",
@@ -174,10 +178,6 @@
     {
         "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-debug-42:/drawable_ic_delete_black_24dp.xml.flat",
         "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/drawable/ic_delete_black_24dp.xml"
-    },
-    {
-        "merged": "org.maplibre.navigation.android.example.app-debug-42:/drawable_whatsapp_image_2025_01_29_at_12_12_56.jpeg.flat",
-        "source": "org.maplibre.navigation.android.example.app-main-44:/drawable/whatsapp_image_2025_01_29_at_12_12_56.jpeg"
     },
     {
         "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-debug-42:/layout_item_main_feature.xml.flat",

@@ -1,12 +1,15 @@
 package org.maplibre.navigation.android.example
 
 import android.annotation.SuppressLint
-import android.location.Location
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.snackbar.Snackbar
 import com.google.gson.Gson
+import okhttp3.MediaType.Companion.toMediaType
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import okhttp3.RequestBody.Companion.toRequestBody
 import org.maplibre.geojson.Point
 import org.maplibre.android.annotations.MarkerOptions
 import org.maplibre.android.camera.CameraPosition
@@ -21,20 +24,16 @@ import org.maplibre.android.maps.Style
 import org.maplibre.navigation.android.example.databinding.ActivityNavigationUiBinding
 import org.maplibre.navigation.android.navigation.ui.v5.NavigationLauncher
 import org.maplibre.navigation.android.navigation.ui.v5.NavigationLauncherOptions
+import org.maplibre.navigation.android.navigation.ui.v5.route.NavigationMapRoute
 import org.maplibre.navigation.android.navigation.v5.models.DirectionsResponse
 import org.maplibre.navigation.android.navigation.v5.models.DirectionsRoute
 import org.maplibre.navigation.android.navigation.v5.models.RouteOptions
-import org.maplibre.navigation.android.navigation.v5.navigation.*
 import org.maplibre.turf.TurfConstants
 import org.maplibre.turf.TurfMeasurement
-import okhttp3.MediaType.Companion.toMediaType
-import okhttp3.OkHttpClient
-import okhttp3.Request
-import okhttp3.RequestBody.Companion.toRequestBody
-import org.maplibre.navigation.android.navigation.ui.v5.route.NavigationMapRoute
 import timber.log.Timber
 import java.io.IOException
 import java.util.Locale
+
 
 class ValhallaNavigationActivity :
     AppCompatActivity(),
@@ -76,7 +75,7 @@ class ValhallaNavigationActivity :
                     .shouldSimulateRoute(simulateRoute)
                     .initialMapCameraPosition(
                         CameraPosition.Builder()
-                        .target(LatLng(23.5740837, 58.3669087)).build()
+                        .target(LatLng(58.3669087,23.5740837,)).build()
                     )
                     .lightThemeResId(R.style.TestNavigationViewLight)
                     .darkThemeResId(R.style.TestNavigationViewDark)
@@ -192,13 +191,13 @@ class ValhallaNavigationActivity :
             ),
             "costing_options" to mapOf(
                 "auto" to mapOf(
-                    "top_speed" to 200
+                    "top_speed" to 130
                 )
             ),
             "locations" to listOf(
                 mapOf(
-                    "lon" to 58.3669087,
-                    "lat" to 23.5740837,
+                    "lon" to 58.410000,
+                    "lat" to 23.580000,
                     "type" to "break"
                 ),
                 mapOf(
@@ -217,7 +216,7 @@ class ValhallaNavigationActivity :
         // <string name="valhalla_url" translatable="false">https://valhalla1.openstreetmap.de/route</string>
         val request = Request.Builder()
             .header("User-Agent", "MapLibre Android Navigation SDK Demo App")
-            .url("http://10.10.20.35:8002/route")
+            .url("http://65.109.128.110:8002/route")
             .post(requestBodyJson.toRequestBody("application/json; charset=utf-8".toMediaType()))
             .build()
 
@@ -249,7 +248,7 @@ class ValhallaNavigationActivity :
                                     // but currently they are necessary to start the navigation
                                     // and to use the voice instructions.
                                     // Again, this isn't ideal, but it is a requirement of the framework.
-                                    baseUrl = "http://10.10.20.35:8002/route",
+                                    baseUrl = "http://65.109.128.110:8002/route",
                                     profile = "valhalla",
                                     user = "valhalla",
                                     accessToken = "valhalla",

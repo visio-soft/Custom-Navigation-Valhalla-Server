@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#8D64F9</color>
-    <color name="colorPrimaryDark">#7845F3</color>
-    <color name="colorAccent">#F56FA3</color>
+    <color name="colorPrimary">#FF0000</color>
+    <color name="colorPrimaryDark">#FF0000</color>
+    <color name="colorAccent">#FF0000</color>
     <color name="red">#FF0000</color>
     <color name="white">#FFFFFF</color>
-    <color name="light_blue_600">#FF039BE5</color>
-    <color name="light_blue_900">#FF01579B</color>
-    <color name="light_blue_A200">#FF40C4FF</color>
-    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="light_blue_600">#FF0000</color>
+    <color name="light_blue_900">#FFFFFF</color>
+    <color name="light_blue_A200">#FFFFFF</color>
+    <color name="light_blue_A400">#FFFFFF</color>
     <color name="black_overlay">#66000000</color>
 </resources>

@@ -12,6 +12,10 @@ public class SampleItem {
     this.activity = activity;
   }
 
+  public SampleItem(String name, Class activity) {
+    this(name,"",activity);
+  }
+
   public String getName() {
     return name;
   }

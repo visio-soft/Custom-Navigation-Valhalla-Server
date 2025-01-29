@@ -35,13 +35,13 @@
         <item>imperial</item>
     </string-array>
     <color name="black_overlay">#66000000</color>
-    <color name="colorAccent">#F56FA3</color>
-    <color name="colorPrimary">#8D64F9</color>
-    <color name="colorPrimaryDark">#7845F3</color>
-    <color name="light_blue_600">#FF039BE5</color>
-    <color name="light_blue_900">#FF01579B</color>
-    <color name="light_blue_A200">#FF40C4FF</color>
-    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="colorAccent">#FF0000</color>
+    <color name="colorPrimary">#FF0000</color>
+    <color name="colorPrimaryDark">#FF0000</color>
+    <color name="light_blue_600">#FF0000</color>
+    <color name="light_blue_900">#FFFFFF</color>
+    <color name="light_blue_A200">#FFFFFF</color>
+    <color name="light_blue_A400">#FFFFFF</color>
     <color name="red">#FF0000</color>
     <color name="white">#FFFFFF</color>
     <dimen name="activity_horizontal_margin">16dp</dimen>
@@ -51,7 +51,7 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="mph_text_size">10sp</dimen>
     <dimen name="speed_text_size">50sp</dimen>
-    <string name="app_name">Maplibre Navigation SDK for Android</string>
+    <string name="app_name">ANKAGEO NAVİ</string>
     <string name="base_url" translatable="false">https://api.mapbox.com</string>
     <string name="current_night_mode" translatable="false">current_night_mode</string>
     <string name="default_locale" translatable="false">default_for_device</string>
@@ -67,8 +67,7 @@
     <string name="description_navigation_ui">Showcase a Navigation UI session. Optional with simulation.</string>
     <string name="description_off_route_detection">Uses the Route Utils class to determine if a users off route.</string>
     <string name="description_reroute">Test the reroute function inside the navigation SDK</string>
-    <string name="description_snap_to_route">Use snap to route option to show smoother location updates.</string>
-    <string name="description_vallhalla_navigation">Use Valhalla routing server to generate directions.</string>
+    <string name="description_vallhalla_navigation">  </string>
     <string name="description_waypoint_navigation">Navigation with waypoints between destinations</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
@@ -86,6 +85,7 @@
     <string name="settings">Settings</string>
     <string name="simulate_route">Simulate Route</string>
     <string name="simulate_route_key" translatable="false">simulate_route</string>
+    <string name="title_activity_about">AboutActivity</string>
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="title_component_navigation">MapLibreNavigation with UI components</string>
     <string name="title_dual_navigation_map">Dual Navigation Map</string>
@@ -98,8 +98,8 @@
     <string name="title_navigation_ui">Navigation UI</string>
     <string name="title_off_route_detection">Off route detection</string>
     <string name="title_reroute">Reroute</string>
-    <string name="title_snap_to_route">Snap to route</string>
-    <string name="title_valhalla_navigation">Valhalla Navigation</string>
+    <string name="title_snap_to_route">About</string>
+    <string name="title_valhalla_navigation">AnkaNaviDemo App</string>
     <string name="title_waypoint_navigation">Waypoint Navigation</string>
     <string name="unit_type">Unit Type</string>
     <string name="unit_type_key" translatable="false">unit_type</string>
@@ -109,11 +109,6 @@
         <item name="colorPrimary">@color/red</item>
         <item name="colorPrimaryDark">@color/red</item>
         <item name="colorAccent">@color/red</item>
-    </style>
-    <style name="AppTheme.Fullscreen" parent="AppTheme">
-        <item name="android:actionBarStyle">@style/Widget.AppTheme.ActionBar.Fullscreen</item>
-        <item name="android:windowActionBarOverlay">true</item>
-        <item name="android:windowBackground">@null</item>
     </style>
     <style name="CustomInstructionView" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="navigationViewPrimary">@color/maplibre_navigation_view_color_primary</item>
@@ -171,10 +166,6 @@
     </style>
     <style name="TestNavigationViewLight" parent="NavigationViewLight">
         <item name="navigationViewMapStyle">@string/map_style_light</item>
-    </style>
-    <style name="ThemeOverlay.Maplibrenavigationandroidmain.FullscreenContainer" parent="">
-        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
-        <item name="fullscreenTextColor">@color/light_blue_A200</item>
     </style>
     <style name="Widget.AppTheme.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
         <item name="android:background">@color/black_overlay</item>

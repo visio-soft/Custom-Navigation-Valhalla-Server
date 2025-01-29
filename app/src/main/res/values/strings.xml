@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Maplibre Navigation SDK for Android</string>
+    <string name="app_name">ANKAGEO NAVİ</string>
 
     <string name="title_mock_navigation">Mock Navigation</string>
     <string name="description_mock_navigation">Mock a navigation session using a mock location engine.</string>
@@ -7,11 +7,10 @@
     <string name="title_navigation_ui">Navigation UI</string>
     <string name="description_navigation_ui">Showcase a Navigation UI session. Optional with simulation.</string>
 
-    <string name="title_snap_to_route">Snap to route</string>
-    <string name="description_snap_to_route">Use snap to route option to show smoother location updates.</string>
+    <string name="title_snap_to_route">About</string>
 
-    <string name="title_valhalla_navigation">Valhalla Navigation</string>
-    <string name="description_vallhalla_navigation">Use Valhalla routing server to generate directions.</string>
+    <string name="title_valhalla_navigation">AnkaNaviDemo App</string>
+    <string name="description_vallhalla_navigation">  </string>
 
     <string name="title_off_route_detection">Off route detection</string>
     <string name="description_off_route_detection">Uses the Route Utils class to determine if a users off route.</string>
@@ -64,5 +63,6 @@
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_about">AboutActivity</string>
 
 </resources>

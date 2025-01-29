@@ -3653,6 +3653,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id aboutLayout
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -3859,7 +3860,6 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
-id frameLayout
 id frost
 id fullscreen_content
 id fullscreen_header
@@ -4386,7 +4386,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_fullscreen
+layout activity_about
 layout activity_main
 layout activity_main_say1
 layout activity_mock_navigation
@@ -4607,7 +4607,6 @@ string description_navigation_route_ui
 string description_navigation_ui
 string description_off_route_detection
 string description_reroute
-string description_snap_to_route
 string description_vallhalla_navigation
 string description_waypoint_navigation
 string dropoff_dialog_negative_text
@@ -4841,6 +4840,7 @@ string side_sheet_behavior
 string simulate_route
 string simulate_route_key
 string status_bar_notification_info_overflow
+string title_activity_about
 string title_activity_fullscreen
 string title_component_navigation
 string title_dual_navigation_map
@@ -4872,7 +4872,6 @@ style Animation_Material3_SideSheetDialog_Left
 style Animation_Material3_SideSheetDialog_Right
 style Animation_MaterialComponents_BottomSheetDialog
 style AppTheme
-style AppTheme_Fullscreen
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
