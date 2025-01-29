@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dropoff_dialog_negative_text">انصراف</string>
+    <string name="dropoff_dialog_positive_text">شروع بعدی</string>
+    <string name="dropoff_dialog_text">آیا می خواهید به مسیر بعدی تغییر مسیر بدهید؟</string>
+    <string name="muted">خاموش</string>
+    <string name="re_center">انتقال به مرکز</string>
+    <string name="report_problem">گزارش خطا</string>
+    <string name="rerouting">مسیر یابی مجدد...</string>
+    <string name="unmuted">بیصدا</string>
+</resources>

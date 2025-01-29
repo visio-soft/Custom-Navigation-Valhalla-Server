@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dropoff_dialog_negative_text">Annuler</string>
+    <string name="dropoff_dialog_positive_text">Aller à la prochaine destination</string>
+    <string name="dropoff_dialog_text">Voulez vous être guidé vers la prochaine destination? </string>
+    <string name="muted">Muet</string>
+    <string name="re_center">Recentrer</string>
+    <string name="rerouting">Recalcul de l’itinéraire...</string>
+    <string name="unmuted">Audible</string>
+</resources>

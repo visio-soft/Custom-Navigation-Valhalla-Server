@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dropoff_dialog_negative_text">Avbryt</string>
+    <string name="dropoff_dialog_positive_text">Börja nästa</string>
+    <string name="dropoff_dialog_text">Vill du navigera till nästa destination?</string>
+    <string name="muted">Tyst</string>
+    <string name="re_center">Centrera</string>
+    <string name="rerouting">Uppdaterar rutt…</string>
+    <string name="unmuted">Ej tyst</string>
+</resources>

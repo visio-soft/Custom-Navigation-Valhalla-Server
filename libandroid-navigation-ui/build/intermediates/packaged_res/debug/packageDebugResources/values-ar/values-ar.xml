@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dropoff_dialog_negative_text">إلغاء</string>
+    <string name="dropoff_dialog_positive_text">ابدأ</string>
+    <string name="dropoff_dialog_text">هل تود التنقل للمكان التالي؟</string>
+    <string name="muted">صامت</string>
+    <string name="re_center">اعادة التمركز</string>
+    <string name="rerouting">اعادة توجيه...</string>
+    <string name="unmuted">غير صامت</string>
+</resources>

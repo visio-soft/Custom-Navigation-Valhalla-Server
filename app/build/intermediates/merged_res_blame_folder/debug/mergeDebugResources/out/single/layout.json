@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-mergeDebugResources-41:/layout/activity_fullscreen.xml",
+        "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/layout/activity_fullscreen.xml"
+    },
+    {
+        "merged": "org.maplibre.navigation.android.example.app-mergeDebugResources-41:/layout/activity_fullscreen.xml",
+        "source": "org.maplibre.navigation.android.example.app-main-44:/layout/activity_fullscreen.xml"
+    },
+    {
+        "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-mergeDebugResources-41:/layout/activity_snap_to_route_navigation.xml",
+        "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/layout/activity_snap_to_route_navigation.xml"
+    },
+    {
+        "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-mergeDebugResources-41:/layout/activity_main.xml",
+        "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-mergeDebugResources-41:/layout/activity_main_say1.xml",
+        "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/layout/activity_main_say1.xml"
+    },
+    {
+        "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-mergeDebugResources-41:/layout/item_main_feature.xml",
+        "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/layout/item_main_feature.xml"
+    },
+    {
+        "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-mergeDebugResources-41:/layout/activity_mock_navigation.xml",
+        "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/layout/activity_mock_navigation.xml"
+    },
+    {
+        "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-mergeDebugResources-41:/layout/activity_navigation_ui.xml",
+        "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/layout/activity_navigation_ui.xml"
+    },
+    {
+        "merged": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-mergeDebugResources-41:/layout/activity_valhalla_navigation.xml",
+        "source": "/Users/aiteam/.gradle/daemon/8.6/org.maplibre.navigation.android.example.app-main-44:/layout/activity_valhalla_navigation.xml"
+    }
+]

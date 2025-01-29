@@ -1,0 +1,14 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.maplibre.navigation.android.navigation.ui.v5" >
+4
+5    <uses-sdk android:minSdkVersion="21" />
+6
+7    <application>
+7-->/Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation-ui/src/main/AndroidManifest.xml:5:3-7:17
+8        <activity android:name="org.maplibre.navigation.android.navigation.ui.v5.MapLibreNavigationActivity" />
+8-->/Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation-ui/src/main/AndroidManifest.xml:6:5-107
+8-->/Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation-ui/src/main/AndroidManifest.xml:6:15-105
+9    </application>
+10
+11</manifest>

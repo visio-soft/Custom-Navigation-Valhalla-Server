@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dropoff_dialog_negative_text">বাতিল করুন</string>
+    <string name="dropoff_dialog_positive_text">পরবর্তী শুরু</string>
+    <string name="dropoff_dialog_text">আপনি কি পরবর্তী গন্তব্যস্থানে যেতে চান?</string>
+    <string name="muted">নিঃশব্দ করা</string>
+    <string name="re_center">আবার কেন্দ্রে আনুন</string>
+    <string name="rerouting">রুট পরিবর্তন করা</string>
+    <string name="unmuted">সশব্দ</string>
+</resources>

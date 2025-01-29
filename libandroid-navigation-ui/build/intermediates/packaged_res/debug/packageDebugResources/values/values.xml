@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="maplibre_navigation_route_alternative_color">#8694A5</color>
+    <color name="maplibre_navigation_route_alternative_congestion_red">#B58281</color>
+    <color name="maplibre_navigation_route_alternative_congestion_yellow">#BEA087</color>
+    <color name="maplibre_navigation_route_alternative_shield_color">#727E8D</color>
+    <color name="maplibre_navigation_route_layer_blue">#56A8FB</color>
+    <color name="maplibre_navigation_route_layer_congestion_red">#E93340</color>
+    <color name="maplibre_navigation_route_layer_congestion_yellow">#F3A64F</color>
+    <color name="maplibre_navigation_route_shield_layer_color">#2F7AC6</color>
+    <color name="maplibre_navigation_route_upcoming_maneuver_arrow_border_color">#2D3F53</color>
+    <color name="maplibre_navigation_route_upcoming_maneuver_arrow_color">#FFFFFF</color>
+    <color name="maplibre_navigation_view_color_accent">#4882C6</color>
+    <color name="maplibre_navigation_view_color_accent_dark">#FFFFFF</color>
+    <color name="maplibre_navigation_view_color_accent_text">#424242</color>
+    <color name="maplibre_navigation_view_color_accent_text_dark">#FFFFFF</color>
+    <color name="maplibre_navigation_view_color_banner_background">#37516F</color>
+    <color name="maplibre_navigation_view_color_banner_background_dark">#37516F</color>
+    <color name="maplibre_navigation_view_color_banner_maneuver_primary">#FFFFFF</color>
+    <color name="maplibre_navigation_view_color_banner_maneuver_primary_dark">#FFFFFF</color>
+    <color name="maplibre_navigation_view_color_banner_maneuver_secondary">#4DFFFFFF</color>
+    <color name="maplibre_navigation_view_color_banner_maneuver_secondary_dark">#4DFFFFFF</color>
+    <color name="maplibre_navigation_view_color_banner_primary_text">#FFFFFF</color>
+    <color name="maplibre_navigation_view_color_banner_primary_text_dark">#FFFFFF</color>
+    <color name="maplibre_navigation_view_color_banner_secondary_text">#E6FFFFFF</color>
+    <color name="maplibre_navigation_view_color_banner_secondary_text_dark">#E6FFFFFF</color>
+    <color name="maplibre_navigation_view_color_divider">#D8D8D8</color>
+    <color name="maplibre_navigation_view_color_divider_dark">#D8D8D8</color>
+    <color name="maplibre_navigation_view_color_list_background">#2D3F53</color>
+    <color name="maplibre_navigation_view_color_list_background_dark">#2D3F53</color>
+    <color name="maplibre_navigation_view_color_primary">#FFFFFF</color>
+    <color name="maplibre_navigation_view_color_primary_dark">#2D3F53</color>
+    <color name="maplibre_navigation_view_color_primary_text">#424242</color>
+    <color name="maplibre_navigation_view_color_primary_text_dark">#424242</color>
+    <color name="maplibre_navigation_view_color_progress">#4B75A4</color>
+    <color name="maplibre_navigation_view_color_progress_background">#39587B</color>
+    <color name="maplibre_navigation_view_color_progress_background_dark">#39587B</color>
+    <color name="maplibre_navigation_view_color_progress_dark">#4B75A4</color>
+    <color name="maplibre_navigation_view_color_secondary">#28353D</color>
+    <color name="maplibre_navigation_view_color_secondary_dark">#D8D8D8</color>
+    <color name="md_grey_200">#EEEEEE</color>
+    <color name="md_grey_400">#BDBDBD</color>
+    <color name="md_grey_500">#9E9E9E</color>
+    <color name="md_grey_700">#616161</color>
+    <color name="md_grey_800">#424242</color>
+    <color name="md_grey_900">#212121</color>
+    <dimen name="fab_margin_bottom">8dp</dimen>
+    <dimen name="wayname_bottom_padding">8dp</dimen>
+    <dimen name="wayname_padding">16dp</dimen>
+    <dimen name="wayname_padding_bottom">2dp</dimen>
+    <string name="dropoff_dialog_negative_text">Cancel</string>
+    <string name="dropoff_dialog_positive_text">Start next</string>
+    <string name="dropoff_dialog_text">Do you want to navigate to next destination?</string>
+    <string name="muted">Muted</string>
+    <string name="navigation_guidance_day" translatable="false">mapbox://styles/mapbox/navigation-guidance-day-v4</string>
+    <string name="navigation_guidance_night" translatable="false">mapbox://styles/mapbox/navigation-guidance-night-v4</string>
+    <string name="navigation_running" translatable="false">navigation_running</string>
+    <string name="navigation_view_instance_state" translatable="false">navigation_view_instance_state</string>
+    <string name="re_center">RE-CENTER</string>
+    <string name="report_problem">Report Problem</string>
+    <string name="rerouting">Rerouting…</string>
+    <string name="unmuted">Unmuted</string>
+    <style name="NavigationLocationLayerStyle" parent="@style/maplibre_LocationComponent">
+        <item name="maplibre_trackingAnimationDurationMultiplier">2.0</item>
+        <item name="maplibre_trackingGesturesManagement">true</item>
+    </style>
+    <style name="NavigationMapRoute">
+        
+        <item name="routeColor">@color/maplibre_navigation_route_layer_blue</item>
+        <item name="routeModerateCongestionColor">@color/maplibre_navigation_route_layer_congestion_yellow</item>
+        <item name="routeSevereCongestionColor">@color/maplibre_navigation_route_layer_congestion_red</item>
+        <item name="routeShieldColor">@color/maplibre_navigation_route_shield_layer_color</item>
+
+        
+        <item name="routeScale">1.0</item>
+        <item name="upcomingManeuverArrowColor">@color/maplibre_navigation_route_upcoming_maneuver_arrow_color</item>
+        <item name="upcomingManeuverArrowBorderColor">@color/maplibre_navigation_route_upcoming_maneuver_arrow_border_color</item>
+
+        
+        <item name="roundedLineCap">true</item>
+    </style>
+    <style name="NavigationViewDark" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="navigationViewPrimary">@color/maplibre_navigation_view_color_primary_dark</item>
+        <item name="navigationViewSecondary">@color/maplibre_navigation_view_color_secondary_dark</item>
+        <item name="navigationViewAccent">@color/maplibre_navigation_view_color_accent_dark</item>
+        <item name="navigationViewPrimaryText">@color/maplibre_navigation_view_color_secondary_dark</item>
+        <item name="navigationViewSecondaryText">@color/maplibre_navigation_view_color_accent_text_dark</item>
+        <item name="navigationViewDivider">@color/maplibre_navigation_view_color_divider_dark</item>
+
+        <item name="navigationViewListBackground">@color/maplibre_navigation_view_color_list_background_dark</item>
+
+        <item name="navigationViewBannerBackground">@color/maplibre_navigation_view_color_banner_background_dark</item>
+        <item name="navigationViewBannerPrimaryText">@color/maplibre_navigation_view_color_banner_primary_text_dark</item>
+        <item name="navigationViewBannerSecondaryText">@color/maplibre_navigation_view_color_banner_secondary_text_dark</item>
+        <item name="navigationViewBannerManeuverPrimary">@color/maplibre_navigation_view_color_banner_maneuver_primary_dark</item>
+        <item name="navigationViewBannerManeuverSecondary">@color/maplibre_navigation_view_color_banner_maneuver_secondary_dark</item>
+
+        <item name="navigationViewProgress">@color/maplibre_navigation_view_color_progress_dark</item>
+        <item name="navigationViewProgressBackground">@color/maplibre_navigation_view_color_progress_background_dark</item>
+
+        <item name="navigationViewRouteStyle">@style/NavigationMapRoute</item>
+
+        <item name="navigationViewLocationLayerStyle">@style/NavigationLocationLayerStyle</item>
+
+        <item name="navigationViewDestinationMarker">@drawable/map_marker_dark</item>
+
+        <item name="navigationViewRouteOverviewDrawable">@drawable/ic_route_preview_dark</item>
+
+        <item name="navigationViewMapStyle">@string/navigation_guidance_night</item>
+    </style>
+    <style name="NavigationViewLight" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="navigationViewPrimary">@color/maplibre_navigation_view_color_primary</item>
+        <item name="navigationViewSecondary">@color/maplibre_navigation_view_color_secondary</item>
+        <item name="navigationViewAccent">@color/maplibre_navigation_view_color_accent</item>
+        <item name="navigationViewPrimaryText">@color/maplibre_navigation_view_color_secondary</item>
+        <item name="navigationViewSecondaryText">@color/maplibre_navigation_view_color_accent_text</item>
+        <item name="navigationViewDivider">@color/maplibre_navigation_view_color_divider</item>
+
+        <item name="navigationViewListBackground">@color/maplibre_navigation_view_color_list_background</item>
+
+        <item name="navigationViewBannerBackground">@color/maplibre_navigation_view_color_banner_background</item>
+        <item name="navigationViewBannerPrimaryText">@color/maplibre_navigation_view_color_banner_primary_text</item>
+        <item name="navigationViewBannerSecondaryText">@color/maplibre_navigation_view_color_banner_secondary_text</item>
+        <item name="navigationViewBannerManeuverPrimary">@color/maplibre_navigation_view_color_banner_maneuver_primary</item>
+        <item name="navigationViewBannerManeuverSecondary">@color/maplibre_navigation_view_color_banner_maneuver_secondary</item>
+
+        <item name="navigationViewProgress">@color/maplibre_navigation_view_color_progress</item>
+        <item name="navigationViewProgressBackground">@color/maplibre_navigation_view_color_progress_background</item>
+
+        <item name="navigationViewRouteStyle">@style/NavigationMapRoute</item>
+
+        <item name="navigationViewLocationLayerStyle">@style/NavigationLocationLayerStyle</item>
+
+        <item name="navigationViewDestinationMarker">@drawable/map_marker_light</item>
+
+        <item name="navigationViewRouteOverviewDrawable">@drawable/ic_route_preview</item>
+
+        <item name="navigationViewMapStyle">@string/navigation_guidance_day</item>
+    </style>
+    <declare-styleable name="ManeuverView">
+    <attr format="color" name="maneuverViewPrimaryColor"/>
+    <attr format="color" name="maneuverViewSecondaryColor"/>
+  </declare-styleable>
+    <declare-styleable name="NavigationMapRoute">
+    
+    <attr format="color" name="routeColor"/>
+    <attr format="color" name="routeModerateCongestionColor"/>
+    <attr format="color" name="routeSevereCongestionColor"/>
+    <attr format="color" name="routeShieldColor"/>
+
+    
+    <attr format="color" name="alternativeRouteColor"/>
+    <attr format="color" name="alternativeRouteModerateCongestionColor"/>
+    <attr format="color" name="alternativeRouteSevereCongestionColor"/>
+    <attr format="color" name="alternativeRouteShieldColor"/>
+
+    
+    <attr format="reference" name="originWaypointIcon"/>
+    <attr format="reference" name="destinationWaypointIcon"/>
+
+    
+    <attr format="float" name="routeScale"/>
+    <attr format="float" name="alternativeRouteScale"/>
+
+    <attr format="color" name="upcomingManeuverArrowColor"/>
+    <attr format="color" name="upcomingManeuverArrowBorderColor"/>
+
+    
+    <attr format="boolean" name="roundedLineCap"/>
+  </declare-styleable>
+    <declare-styleable name="NavigationView">
+    
+    <attr format="color" name="navigationViewPrimary"/>
+    <attr format="color" name="navigationViewSecondary"/>
+    <attr format="color" name="navigationViewAccent"/>
+    <attr format="color" name="navigationViewPrimaryText"/>
+    <attr format="color" name="navigationViewSecondaryText"/>
+    <attr format="color" name="navigationViewDivider"/>
+
+    
+    <attr format="color" name="navigationViewListBackground"/>
+
+    
+    <attr format="color" name="navigationViewBannerBackground"/>
+    <attr format="color" name="navigationViewBannerPrimaryText"/>
+    <attr format="color" name="navigationViewBannerSecondaryText"/>
+    <attr format="color" name="navigationViewBannerManeuverPrimary"/>
+    <attr format="color" name="navigationViewBannerManeuverSecondary"/>
+
+    
+    <attr format="color" name="navigationViewProgress"/>
+    <attr format="color" name="navigationViewProgressBackground"/>
+
+    
+    <attr format="string" name="navigationViewMapStyle"/>
+
+    
+    <attr format="reference" name="navigationViewRouteStyle"/>
+
+    
+    <attr format="reference" name="navigationViewLocationLayerStyle"/>
+
+    
+    <attr format="reference" name="navigationViewDestinationMarker"/>
+
+    
+    <attr format="reference" name="navigationViewRouteOverviewDrawable"/>
+
+    
+    <attr format="reference" name="navigationLightTheme"/>
+    <attr format="reference" name="navigationDarkTheme"/>
+  </declare-styleable>
+</resources>

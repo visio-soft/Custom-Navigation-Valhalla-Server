@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dropoff_dialog_negative_text">Hủy bỏ</string>
+    <string name="dropoff_dialog_positive_text">Đi tiếp</string>
+    <string name="dropoff_dialog_text">Bạn có muốn đi tiếp đến nơi sau?</string>
+    <string name="muted">Tiếng Tắt</string>
+    <string name="re_center">Quay về Đường đi</string>
+    <string name="report_problem">Báo cáo Sự cố</string>
+    <string name="rerouting">Đang Tìm Đường đi Mới…</string>
+    <string name="unmuted">Tiếng Mở</string>
+</resources>

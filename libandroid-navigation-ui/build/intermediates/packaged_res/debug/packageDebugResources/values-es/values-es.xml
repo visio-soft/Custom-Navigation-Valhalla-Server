@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dropoff_dialog_negative_text">Cancelar</string>
+    <string name="dropoff_dialog_positive_text">Empezar siguiente</string>
+    <string name="dropoff_dialog_text">¿Quieres navegar a tú siguiente destino?</string>
+    <string name="muted">Silenciado</string>
+    <string name="re_center">Centrando</string>
+    <string name="rerouting">Enrutando</string>
+    <string name="unmuted">Sin silenciar</string>
+</resources>

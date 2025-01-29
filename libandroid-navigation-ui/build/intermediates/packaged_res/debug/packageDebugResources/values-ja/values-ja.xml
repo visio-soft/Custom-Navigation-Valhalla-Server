@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dropoff_dialog_negative_text">キャンセル</string>
+    <string name="dropoff_dialog_positive_text">次を開始する</string>
+    <string name="dropoff_dialog_text">次の目的地に移動しますか？</string>
+    <string name="muted">ミュート</string>
+    <string name="re_center">再センタリング</string>
+    <string name="report_problem">問題を報告する</string>
+    <string name="rerouting">再ルーティング…</string>
+    <string name="unmuted">ミュート解除</string>
+</resources>

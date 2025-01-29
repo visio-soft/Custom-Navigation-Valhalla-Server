@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dropoff_dialog_negative_text">Desbotar</string>
+    <string name="dropoff_dialog_positive_text">Comezar seguinte</string>
+    <string name="dropoff_dialog_text">Desexas navegar ó teu seguinte destino?</string>
+    <string name="muted">Silenciado</string>
+    <string name="re_center">Centrando</string>
+    <string name="report_problem">Informar dun problema</string>
+    <string name="rerouting">Estase a enrotar...</string>
+    <string name="unmuted">Sen silenciar</string>
+</resources>

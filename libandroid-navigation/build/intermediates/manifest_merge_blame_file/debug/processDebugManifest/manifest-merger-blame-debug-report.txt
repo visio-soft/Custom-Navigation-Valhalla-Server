@@ -1,0 +1,27 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.maplibre.navigation.android.navigation" >
+4
+5    <uses-sdk android:minSdkVersion="21" />
+6
+7    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+7-->/Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation/src/main/AndroidManifest.xml:4:5-81
+7-->/Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation/src/main/AndroidManifest.xml:4:22-78
+8    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+8-->/Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation/src/main/AndroidManifest.xml:5:5-79
+8-->/Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation/src/main/AndroidManifest.xml:5:22-76
+9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+9-->/Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation/src/main/AndroidManifest.xml:6:5-79
+9-->/Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation/src/main/AndroidManifest.xml:6:22-76
+10
+11    <application>
+11-->/Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation/src/main/AndroidManifest.xml:8:5-12:19
+12        <service
+12-->/Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation/src/main/AndroidManifest.xml:9:9-11:56
+13            android:name="org.maplibre.navigation.android.navigation.v5.navigation.NavigationService"
+13-->/Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation/src/main/AndroidManifest.xml:10:13-102
+14            android:foregroundServiceType="location" />
+14-->/Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation/src/main/AndroidManifest.xml:11:13-53
+15    </application>
+16
+17</manifest>

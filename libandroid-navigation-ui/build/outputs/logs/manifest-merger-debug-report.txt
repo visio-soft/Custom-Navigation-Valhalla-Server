@@ -1,0 +1,23 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation-ui/src/main/AndroidManifest.xml:1:1-9:12
+INJECTED from /Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation-ui/src/main/AndroidManifest.xml:1:1-9:12
+	package
+		ADDED from /Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation-ui/src/main/AndroidManifest.xml:2:5-63
+		INJECTED from /Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation-ui/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation-ui/src/main/AndroidManifest.xml:3:5-63
+application
+ADDED from /Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation-ui/src/main/AndroidManifest.xml:5:3-7:17
+activity#org.maplibre.navigation.android.navigation.ui.v5.MapLibreNavigationActivity
+ADDED from /Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation-ui/src/main/AndroidManifest.xml:6:5-107
+	android:name
+		ADDED from /Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation-ui/src/main/AndroidManifest.xml:6:15-105
+uses-sdk
+INJECTED from /Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation-ui/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation-ui/src/main/AndroidManifest.xml
+INJECTED from /Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation-ui/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation-ui/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation-ui/src/main/AndroidManifest.xml

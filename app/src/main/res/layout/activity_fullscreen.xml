@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/fullscreenBackgroundColor"
+    android:theme="@style/ThemeOverlay.Maplibrenavigationandroidmain.FullscreenContainer"
+    tools:context=".FullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="175dp"
+        android:layout_height="111dp"
+        app:srcCompat="@drawable/flag_of_oman_svg"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="629dp" />
+
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="About ONM Demo  Welcome to ONM Demo, your preview of the basic navigation solution for Oman!  ONM Demo is a showcase application developed by Ankageo, designed to demonstrate basic features and functionality of the Oman Navigation Map (ONM).  Contact Us  We'd love to hear your feedback or answer your questions!  Email: info@ankageo.com  Website: www.ankageo.com"
+        android:textColor="@color/white"
+        android:textColorLink="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="174dp"
+        android:layout_height="62dp"
+        app:srcCompat="@drawable/whatsapp_image_2025_01_29_at_12_12_56"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

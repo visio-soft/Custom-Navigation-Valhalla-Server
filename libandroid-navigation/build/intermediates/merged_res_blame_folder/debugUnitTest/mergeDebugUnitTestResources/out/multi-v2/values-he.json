@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.maplibre.navigation.android.navigation.test.libandroid-navigation-mergeDebugUnitTestResources-24:/values-he/values-he.xml",
+            "map": [
+                {
+                    "source": "/Users/aiteam/.gradle/caches/transforms-4/59e45cce120c9f5038a31de3d939718a/transformed/jetified-android-sdk-11.6.1/res/values-he/values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,179,270,388,493,647,763",
+                        "endColumns": "123,90,117,104,153,115,138",
+                        "endOffsets": "174,265,383,488,642,758,897"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "163,287,378,496,601,755,871",
+                        "endColumns": "123,90,117,104,153,115,138",
+                        "endOffsets": "282,373,491,596,750,866,1005"
+                    }
+                },
+                {
+                    "source": "/Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation/build/intermediates/packaged_res/debug/packageDebugResources/values-he/values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,109,163",
+                        "endColumns": "53,53,69",
+                        "endOffsets": "104,158,228"
+                    },
+                    "to": {
+                        "startLines": "2,3,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,109,1010",
+                        "endColumns": "53,53,69",
+                        "endOffsets": "104,158,1075"
+                    }
+                }
+            ]
+        }
+    ]
+}

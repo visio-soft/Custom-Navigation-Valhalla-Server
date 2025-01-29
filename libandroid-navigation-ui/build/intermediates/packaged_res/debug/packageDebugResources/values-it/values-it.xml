@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="muted">Silenziato</string>
+    <string name="report_problem">Riporta un problema</string>
+    <string name="rerouting">Ricalcolo..</string>
+    <string name="unmuted">Attivato</string>
+</resources>

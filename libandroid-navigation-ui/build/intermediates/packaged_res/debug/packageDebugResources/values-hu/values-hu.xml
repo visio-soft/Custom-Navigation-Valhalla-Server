@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dropoff_dialog_negative_text">Mégse</string>
+    <string name="dropoff_dialog_positive_text">Következő indítása</string>
+    <string name="dropoff_dialog_text">Szeretnél a következő célponthoz navigálni?</string>
+    <string name="muted">Némítva</string>
+    <string name="re_center">Középre</string>
+    <string name="report_problem">Probléma jelentése</string>
+    <string name="rerouting">Újratervezés...</string>
+    <string name="unmuted">Visszahangosítva</string>
+</resources>

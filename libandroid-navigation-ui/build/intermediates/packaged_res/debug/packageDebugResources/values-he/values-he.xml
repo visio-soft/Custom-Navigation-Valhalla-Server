@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dropoff_dialog_negative_text">ביטול</string>
+    <string name="dropoff_dialog_positive_text">התחל</string>
+    <string name="dropoff_dialog_text">האם תרצה לנווט אל היעד הבא?</string>
+    <string name="muted">שמע כבוי</string>
+    <string name="re_center">מרכוז</string>
+    <string name="report_problem">דיווח על בעיה</string>
+    <string name="rerouting">מחשב מסלול מחדש...</string>
+    <string name="unmuted">שמע פועל</string>
+</resources>

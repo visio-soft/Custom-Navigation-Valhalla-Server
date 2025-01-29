@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dropoff_dialog_negative_text">Отмена</string>
+    <string name="dropoff_dialog_positive_text">Начать другой</string>
+    <string name="dropoff_dialog_text">Проложить маршрут к следующему пункту назначения?</string>
+    <string name="muted">Не проговаривать</string>
+    <string name="re_center">По центру</string>
+    <string name="report_problem">Сообщить о проблеме</string>
+    <string name="rerouting">Пересчёт маршрута…</string>
+    <string name="unmuted">Проговаривать</string>
+</resources>

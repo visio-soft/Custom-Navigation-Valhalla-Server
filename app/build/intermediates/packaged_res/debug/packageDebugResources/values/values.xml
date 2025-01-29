@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language_array">
+        <item>Default for Device</item>
+        <item>English</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Indonesian</item>
+    </string-array>
+    <string-array name="language_values_array">
+        <item>@string/default_locale</item>
+        <item>en</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>in</item>
+    </string-array>
+    <string-array name="route_profile_array">
+        <item>Driving</item>
+        <item>Cycling</item>
+        <item>Walking</item>
+    </string-array>
+    <string-array name="route_profile_values_array">
+        <item>driving-traffic</item>
+        <item>cycling</item>
+        <item>walking</item>
+    </string-array>
+    <string-array name="unit_type_array">
+        <item>Default for Device</item>
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+    <string-array name="unit_type_values_array">
+        <item>@string/default_unit_type</item>
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+    <color name="black_overlay">#66000000</color>
+    <color name="colorAccent">#F56FA3</color>
+    <color name="colorPrimary">#8D64F9</color>
+    <color name="colorPrimaryDark">#7845F3</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="component_navigation_bottomsheet_height">96dp</dimen>
+    <dimen name="component_navigation_route_camera_padding">56dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="mph_text_size">10sp</dimen>
+    <dimen name="speed_text_size">50sp</dimen>
+    <string name="app_name">Maplibre Navigation SDK for Android</string>
+    <string name="base_url" translatable="false">https://api.mapbox.com</string>
+    <string name="current_night_mode" translatable="false">current_night_mode</string>
+    <string name="default_locale" translatable="false">default_for_device</string>
+    <string name="default_unit_type" translatable="false">default_for_device</string>
+    <string name="description_component_navigation">MapLibreNavigation with UI components</string>
+    <string name="description_dual_navigation_map">Shows how to add NavigationView and MapView in the same layout</string>
+    <string name="description_embedded_navigation">Navigation in a view which contains other views</string>
+    <string name="description_end_navigation">Shows how to end navigation using NavigationView</string>
+    <string name="description_fragment_navigation">NavigationView implemented with Fragment</string>
+    <string name="description_mock_navigation">Mock a navigation session using a mock location engine.</string>
+    <string name="description_navigation_launcher">Drop-in UI experience</string>
+    <string name="description_navigation_route_ui">Shows different styles using NavigationMapRoute</string>
+    <string name="description_navigation_ui">Showcase a Navigation UI session. Optional with simulation.</string>
+    <string name="description_off_route_detection">Uses the Route Utils class to determine if a users off route.</string>
+    <string name="description_reroute">Test the reroute function inside the navigation SDK</string>
+    <string name="description_snap_to_route">Use snap to route option to show smoother location updates.</string>
+    <string name="description_vallhalla_navigation">Use Valhalla routing server to generate directions.</string>
+    <string name="description_waypoint_navigation">Navigation with waypoints between destinations</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="error_route_not_available">Current route is not available</string>
+    <string name="error_select_longer_route">Please select a longer route</string>
+    <string name="error_valid_route_not_found">Valid route not found.</string>
+    <string name="explanation_long_press_waypoint">Long press map to place waypoint</string>
+    <string name="language">Language</string>
+    <string name="language_key" translatable="false">language</string>
+    <string name="map_style_dark" translatable="false">https://api.maptiler.com/maps/satellite/style.json?key=eYkCXsSZ8DtKdfoROmtq</string>
+    <string name="map_style_light" translatable="false">https://api.maptiler.com/maps/satellite/style.json?key=eYkCXsSZ8DtKdfoROmtq</string>
+    <string name="mapbox_access_token" translatable="false">pk.eyJ1Ijoic2Vub2xwYXphciIsImEiOiJjbTYwZmZlYmswY216MmtzNjdmMTc3ZWtkIn0.JlaiDtVRc64j7xbg320fnA</string>
+    <string name="route_profile">Route Profile</string>
+    <string name="route_profile_key" translatable="false">route_profile</string>
+    <string name="settings">Settings</string>
+    <string name="simulate_route">Simulate Route</string>
+    <string name="simulate_route_key" translatable="false">simulate_route</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="title_component_navigation">MapLibreNavigation with UI components</string>
+    <string name="title_dual_navigation_map">Dual Navigation Map</string>
+    <string name="title_embedded_navigation">Embedded Navigation</string>
+    <string name="title_end_navigation">End Navigation</string>
+    <string name="title_fragment_navigation">NavigationView implemented with Fragment</string>
+    <string name="title_mock_navigation">Mock Navigation</string>
+    <string name="title_navigation_launcher">Navigation Launcher</string>
+    <string name="title_navigation_route_ui">Navigation Map Route</string>
+    <string name="title_navigation_ui">Navigation UI</string>
+    <string name="title_off_route_detection">Off route detection</string>
+    <string name="title_reroute">Reroute</string>
+    <string name="title_snap_to_route">Snap to route</string>
+    <string name="title_valhalla_navigation">Valhalla Navigation</string>
+    <string name="title_waypoint_navigation">Waypoint Navigation</string>
+    <string name="unit_type">Unit Type</string>
+    <string name="unit_type_key" translatable="false">unit_type</string>
+    <string name="valhalla_url" translatable="false">https://valhalla1.openstreetmap.de/route</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/red</item>
+        <item name="colorAccent">@color/red</item>
+    </style>
+    <style name="AppTheme.Fullscreen" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/Widget.AppTheme.ActionBar.Fullscreen</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <style name="CustomInstructionView" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="navigationViewPrimary">@color/maplibre_navigation_view_color_primary</item>
+        <item name="navigationViewSecondary">@color/maplibre_navigation_view_color_secondary</item>
+        <item name="navigationViewAccent">@color/maplibre_navigation_view_color_accent</item>
+        <item name="navigationViewPrimaryText">@color/maplibre_navigation_view_color_secondary
+        </item>
+        <item name="navigationViewSecondaryText">@color/maplibre_navigation_view_color_accent_text
+        </item>
+        <item name="navigationViewDivider">@color/maplibre_navigation_view_color_divider</item>
+
+        <item name="navigationViewListBackground">
+            @color/maplibre_navigation_view_color_list_background
+        </item>
+
+        <item name="navigationViewBannerBackground">
+            @color/maplibre_navigation_view_color_banner_background
+        </item>
+        <item name="navigationViewBannerPrimaryText">
+            @color/maplibre_navigation_view_color_banner_primary_text
+        </item>
+        <item name="navigationViewBannerSecondaryText">
+            @color/maplibre_navigation_view_color_banner_secondary_text
+        </item>
+        <item name="navigationViewBannerManeuverPrimary">
+            @color/maplibre_navigation_view_color_banner_maneuver_primary
+        </item>
+        <item name="navigationViewBannerManeuverSecondary">
+            @color/maplibre_navigation_view_color_banner_maneuver_secondary
+        </item>
+
+        <item name="navigationViewProgress">@color/maplibre_navigation_view_color_progress</item>
+        <item name="navigationViewProgressBackground">
+            @color/maplibre_navigation_view_color_progress_background
+        </item>
+
+        <item name="navigationViewRouteStyle">@style/NavigationMapRoute</item>
+
+        <item name="navigationViewLocationLayerStyle">@style/maplibre_LocationLayer</item>
+
+        <item name="navigationViewDestinationMarker">@drawable/map_marker_light</item>
+
+        <item name="navigationViewRouteOverviewDrawable">@drawable/ic_route_preview</item>
+
+        <item name="navigationViewMapStyle">@string/navigation_guidance_day</item>
+    </style>
+    <style name="CustomNavigationMapRoute" parent="NavigationMapRoute">
+        <item name="upcomingManeuverArrowBorderColor">@color/red</item>
+    </style>
+    <style name="CustomNavigationView" parent="NavigationViewLight">
+        <item name="navigationViewRouteStyle">@style/CustomNavigationMapRoute</item>
+    </style>
+    <style name="TestNavigationViewDark" parent="NavigationViewDark">
+        <item name="navigationViewMapStyle">@string/map_style_dark</item>
+    </style>
+    <style name="TestNavigationViewLight" parent="NavigationViewLight">
+        <item name="navigationViewMapStyle">@string/map_style_light</item>
+    </style>
+    <style name="ThemeOverlay.Maplibrenavigationandroidmain.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+    <style name="Widget.AppTheme.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+    <style name="Widget.AppTheme.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+    <declare-styleable name="FullscreenAttrs">
+        <attr format="color" name="fullscreenBackgroundColor"/>
+        <attr format="color" name="fullscreenTextColor"/>
+    </declare-styleable>
+</resources>

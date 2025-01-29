@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.maplibre.navigation.android.navigation.ui.v5.test.libandroid-navigation-ui-mergeDebugUnitTestResources-31:/values-yo/values-yo.xml",
+            "map": [
+                {
+                    "source": "/Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation-ui/build/intermediates/packaged_res/debug/packageDebugResources/values-yo/values-yo.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,120,188,280,320,370,424,475",
+                        "endColumns": "64,67,91,39,49,53,50,43",
+                        "endOffsets": "115,183,275,315,365,419,470,514"
+                    }
+                }
+            ]
+        }
+    ]
+}
