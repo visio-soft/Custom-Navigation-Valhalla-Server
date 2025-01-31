@@ -3,7 +3,7 @@
     style="@android:style/TextAppearance.StatusBar.EventContent"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@android:color/holo_blue_dark"
+    android:background="@color/maplibre_navigation_route_layer_congestion_red"
     android:paddingTop="8dp"
     android:paddingBottom="8dp"
     android:orientation="vertical">

@@ -10,7 +10,6 @@ import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.RequestBody.Companion.toRequestBody
-import org.maplibre.geojson.Point
 import org.maplibre.android.annotations.MarkerOptions
 import org.maplibre.android.camera.CameraPosition
 import org.maplibre.android.geometry.LatLng
@@ -21,6 +20,7 @@ import org.maplibre.android.location.modes.RenderMode
 import org.maplibre.android.maps.MapLibreMap
 import org.maplibre.android.maps.OnMapReadyCallback
 import org.maplibre.android.maps.Style
+import org.maplibre.geojson.Point
 import org.maplibre.navigation.android.example.databinding.ActivityNavigationUiBinding
 import org.maplibre.navigation.android.navigation.ui.v5.NavigationLauncher
 import org.maplibre.navigation.android.navigation.ui.v5.NavigationLauncherOptions
@@ -69,14 +69,9 @@ class ValhallaNavigationActivity :
 
         binding.startRouteButton.setOnClickListener {
             route?.let { route ->
-                val userLocation = mapLibreMap.locationComponent.lastKnownLocation ?: return@let
                 val options = NavigationLauncherOptions.builder()
                     .directionsRoute(route)
                     .shouldSimulateRoute(simulateRoute)
-                    .initialMapCameraPosition(
-                        CameraPosition.Builder()
-                        .target(LatLng(58.3669087,23.5740837,)).build()
-                    )
                     .lightThemeResId(R.style.TestNavigationViewLight)
                     .darkThemeResId(R.style.TestNavigationViewDark)
                     .build()
@@ -111,6 +106,14 @@ class ValhallaNavigationActivity :
             navigationMapRoute = NavigationMapRoute(binding.mapView, mapLibreMap)
             mapLibreMap.addOnMapClickListener(this)
 
+            val targetLocation = LatLng(23.5740837, 58.3669087)
+            val zoomLevel = 12.0
+
+            mapLibreMap.cameraPosition = CameraPosition.Builder()
+                .target(targetLocation)
+                .zoom(zoomLevel)
+                .build()
+
             Snackbar.make(
                 findViewById(R.id.container),
                 "Tap map to place destination",
@@ -131,7 +134,7 @@ class ValhallaNavigationActivity :
             )
 
             // Enable to make component visible
-            it.isLocationComponentEnabled = true
+            it.isLocationComponentEnabled = false
 
             // Set the component's camera mode
             it.cameraMode = CameraMode.TRACKING_GPS_NORTH
@@ -154,17 +157,17 @@ class ValhallaNavigationActivity :
         binding.startRouteLayout.visibility = View.GONE
         val userLocation = mapLibreMap.locationComponent.lastKnownLocation
         val destination = destination
-        if (userLocation == null) {
-            Timber.d("calculateRoute: User location is null, therefore, origin can't be set.")
-            return
-        }
+//        if (userLocation == null) {
+//            Timber.d("calculateRoute: User location is null, therefore, origin can't be set.")
+//            return
+//        }
 
         if (destination == null) {
             Timber.d("calculateRoute: destination is null, therefore, destination can't be set.")
             return
         }
 
-        val origin = Point.fromLngLat(userLocation.longitude, userLocation.latitude)
+        val origin = Point.fromLngLat(58.3669087,23.5740837)
         if (TurfMeasurement.distance(origin, destination, TurfConstants.UNIT_METERS) < 50) {
             Timber.d("calculateRoute: distance < 50 m")
             binding.startRouteButton.visibility = View.GONE
@@ -196,8 +199,8 @@ class ValhallaNavigationActivity :
             ),
             "locations" to listOf(
                 mapOf(
-                    "lon" to 58.410000,
-                    "lat" to 23.580000,
+                    "lon" to 58.3669087,
+                    "lat" to 23.5740837,
                     "type" to "break"
                 ),
                 mapOf(
@@ -216,7 +219,7 @@ class ValhallaNavigationActivity :
         // <string name="valhalla_url" translatable="false">https://valhalla1.openstreetmap.de/route</string>
         val request = Request.Builder()
             .header("User-Agent", "MapLibre Android Navigation SDK Demo App")
-            .url("http://65.109.128.110:8002/route")
+            .url(getString(R.string.valhalla_url))
             .post(requestBodyJson.toRequestBody("application/json; charset=utf-8".toMediaType()))
             .build()
 
@@ -248,7 +251,7 @@ class ValhallaNavigationActivity :
                                     // but currently they are necessary to start the navigation
                                     // and to use the voice instructions.
                                     // Again, this isn't ideal, but it is a requirement of the framework.
-                                    baseUrl = "http://65.109.128.110:8002/route",
+                                    baseUrl = "https://valhalla.routing",
                                     profile = "valhalla",
                                     user = "valhalla",
                                     accessToken = "valhalla",

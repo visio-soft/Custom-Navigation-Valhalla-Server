@@ -4,41 +4,35 @@
     <style name="NavigationMapRoute">
 
         <!-- Colors -->
-        <item name="routeColor">@color/maplibre_navigation_route_layer_blue</item>
+        <item name="routeColor">@color/maplibre_navigation_route_alternative_congestion_red</item>
         <item name="routeModerateCongestionColor">
             @color/maplibre_navigation_route_layer_congestion_yellow
         </item>
         <item name="routeSevereCongestionColor">
             @color/maplibre_navigation_route_layer_congestion_red
         </item>
-        <item name="routeShieldColor">@color/maplibre_navigation_route_shield_layer_color</item>
+        <item name="routeShieldColor">@color/maplibre_navigation_route_alternative_congestion_red</item>
 
         <!-- Scales -->
         <item name="routeScale">1.0</item>
         <item name="upcomingManeuverArrowColor">
             @color/maplibre_navigation_route_upcoming_maneuver_arrow_color
         </item>
-        <item name="upcomingManeuverArrowBorderColor">
-            @color/maplibre_navigation_route_upcoming_maneuver_arrow_border_color
-        </item>
+        <item name="upcomingManeuverArrowBorderColor">@color/maplibre_navigation_route_layer_congestion_red</item>
     </style>
 
     <style name="NavigationViewLight" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="navigationViewPrimary">@color/maplibre_navigation_view_color_primary</item>
         <item name="navigationViewSecondary">@color/maplibre_navigation_view_color_secondary</item>
-        <item name="navigationViewAccent">@color/maplibre_navigation_view_color_accent</item>
-        <item name="navigationViewPrimaryText">@color/maplibre_navigation_view_color_secondary</item>
+        <item name="navigationViewAccent">@color/maplibre_navigation_route_alternative_congestion_red</item>
+        <item name="navigationViewPrimaryText">@color/maplibre_navigation_route_layer_congestion_red</item>
         <item name="navigationViewSecondaryText">@color/maplibre_navigation_view_color_accent_text
         </item>
         <item name="navigationViewDivider">@color/maplibre_navigation_view_color_divider</item>
 
-        <item name="navigationViewListBackground">
-            @color/maplibre_navigation_view_color_list_background
-        </item>
+        <item name="navigationViewListBackground">@color/maplibre_navigation_route_layer_congestion_red</item>
 
-        <item name="navigationViewBannerBackground">
-            @color/maplibre_navigation_view_color_banner_background
-        </item>
+        <item name="navigationViewBannerBackground">@color/maplibre_navigation_route_layer_congestion_red</item>
         <item name="navigationViewBannerPrimaryText">
             @color/maplibre_navigation_view_color_banner_primary_text
         </item>
@@ -52,10 +46,8 @@
             @color/maplibre_navigation_view_color_banner_maneuver_secondary
         </item>
 
-        <item name="navigationViewProgress">@color/maplibre_navigation_view_color_progress</item>
-        <item name="navigationViewProgressBackground">
-            @color/maplibre_navigation_view_color_progress_background
-        </item>
+        <item name="navigationViewProgress">@color/maplibre_navigation_route_alternative_congestion_red</item>
+        <item name="navigationViewProgressBackground">@color/maplibre_navigation_route_layer_congestion_red</item>
 
         <item name="navigationViewRouteStyle">@style/NavigationMapRoute</item>
 
@@ -84,9 +76,7 @@
             @color/maplibre_navigation_view_color_list_background_dark
         </item>
 
-        <item name="navigationViewBannerBackground">
-            @color/maplibre_navigation_view_color_banner_background_dark
-        </item>
+        <item name="navigationViewBannerBackground">@color/maplibre_navigation_route_alternative_congestion_red</item>
         <item name="navigationViewBannerPrimaryText">
             @color/maplibre_navigation_view_color_banner_primary_text_dark
         </item>
@@ -100,10 +90,8 @@
             @color/maplibre_navigation_view_color_banner_maneuver_secondary_dark
         </item>
 
-        <item name="navigationViewProgress">@color/maplibre_navigation_view_color_progress_dark</item>
-        <item name="navigationViewProgressBackground">
-            @color/maplibre_navigation_view_color_progress_background_dark
-        </item>
+        <item name="navigationViewProgress">@color/maplibre_navigation_route_layer_congestion_red</item>
+        <item name="navigationViewProgressBackground">@color/maplibre_navigation_route_alternative_congestion_red</item>
 
         <item name="navigationViewRouteStyle">@style/NavigationMapRoute</item>
 
@@ -158,7 +146,7 @@
         <item name="maplibre_backgroundDrawableStale">@drawable/maplibre_user_stroke_icon</item>
 
         <item name="maplibre_accuracyAlpha">0.15</item>
-        <item name="maplibre_accuracyColor">@color/maplibre_location_layer_blue</item>
+        <item name="maplibre_accuracyColor">@color/maplibre_navigation_route_alternative_congestion_red</item>
 
         <item name="maplibre_elevation">12dp</item>
 

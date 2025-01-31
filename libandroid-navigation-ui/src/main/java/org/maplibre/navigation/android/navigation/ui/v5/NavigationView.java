@@ -49,28 +49,28 @@ import org.maplibre.navigation.android.navigation.v5.navigation.MapLibreNavigati
 import org.maplibre.navigation.android.navigation.v5.utils.DistanceFormatter;
 import org.maplibre.navigation.android.navigation.v5.utils.LocaleUtils;
 
-/**
- * View that creates the drop-in UI.
- * <p>
- * Once started, this view will check if the {@link Activity} that inflated
- * it was launched with a {@link DirectionsRoute}.
- * <p>
- * Or, if not found, this view will look for a set of {@link Point} coordinates.
- * In the latter case, a new {@link DirectionsRoute} will be retrieved from {@link NavigationRoute}.
- * <p>
- * Once valid data is obtained, this activity will immediately begin navigation
- * with {@link MapLibreNavigation}.
- * <p>
- * If launched with the simulation boolean set to true, a {@link ReplayRouteLocationEngine}
- * will be initialized and begin pushing updates.
- * <p>
- * This activity requires user permissions ACCESS_FINE_LOCATION
- * and ACCESS_COARSE_LOCATION have already been granted.
- * <p>
- * A Mapbox access token must also be set by the developer (to initialize navigation).
- *
- * @since 0.7.0
- */
+//**
+// * View that creates the drop-in UI.
+// * <p>
+// * Once started, this view will check if the {@link Activity} that inflated
+// * it was launched with a {@link DirectionsRoute}.
+// * <p>
+// * Or, if not found, this view will look for a set of {@link Point} coordinates.
+// * In the latter case, a new {@link DirectionsRoute} will be retrieved from {@link NavigationRoute}.
+// * <p>
+// * Once valid data is obtained, this activity will immediately begin navigation
+// * with {@link MapLibreNavigation}.
+// * <p>
+// * If launched with the simulation boolean set to true, a {@link ReplayRouteLocationEngine}
+// * will be initialized and begin pushing updates.
+// * <p>
+// * This activity requires user permissions ACCESS_FINE_LOCATION
+// * and ACCESS_COARSE_LOCATION have already been granted.
+// * <p>
+// * A Mapbox access token must also be set by the developer (to initialize navigation).
+// *
+// * @since 0.7.0
+// */
 public class NavigationView extends CoordinatorLayout implements LifecycleOwner, OnMapReadyCallback,
   NavigationContract.View {
 
@@ -180,15 +180,15 @@ public class NavigationView extends CoordinatorLayout implements LifecycleOwner,
     mapInstanceState = savedInstanceState.getParcelable(MAP_INSTANCE_STATE_KEY);
   }
 
-  /**
-   * Called to ensure the {@link MapView} is destroyed
-   * properly.
-   * <p>
-   * In an {@link Activity} this should be in {@link Activity#onDestroy()}.
-   * <p>
-   * In a {@link Fragment}, this should
-   * be in {@link Fragment#onDestroyView()}.
-   */
+//  /**
+//   * Called to ensure the {@link MapView} is destroyed
+//   * properly.
+//   * <p>
+//   * In an {@link Activity} this should be in {@link Activity#onDestroy()}.
+//   * <p>
+//   * In a {@link Fragment}, this should
+//   * be in {@link Fragment#onDestroyView()}.
+//   */
   @UiThread
   public void onDestroy() {
     shutdown();

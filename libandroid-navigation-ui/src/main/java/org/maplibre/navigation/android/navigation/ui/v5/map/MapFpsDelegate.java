@@ -12,6 +12,8 @@ import org.maplibre.navigation.android.navigation.v5.routeprogress.ProgressChang
 import org.maplibre.navigation.android.navigation.v5.routeprogress.RouteLegProgress;
 import org.maplibre.navigation.android.navigation.v5.routeprogress.RouteProgress;
 
+import java.util.Objects;
+
 class MapFpsDelegate implements OnTrackingModeChangedListener, OnTrackingModeTransitionListener {
 
   static final int DEFAULT_MAX_FPS_THRESHOLD = 20;
@@ -78,9 +80,7 @@ class MapFpsDelegate implements OnTrackingModeChangedListener, OnTrackingModeTra
   }
 
   void adjustFpsFor(RouteProgress routeProgress) {
-    if (!isEnabled || !isTracking) {
-      return;
-    }
+
 
     int maxFps = determineMaxFpsFrom(routeProgress, mapView.getContext());
     mapView.setMaximumFps(maxFps);
