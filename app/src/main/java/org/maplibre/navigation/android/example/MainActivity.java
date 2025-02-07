@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity implements PermissionsListen
 
         list.add(new SampleItem(
             getString(R.string.title_valhalla_navigation),
-            getString(R.string.description_vallhalla_navigation),
             ValhallaNavigationActivity.class
         ));
 

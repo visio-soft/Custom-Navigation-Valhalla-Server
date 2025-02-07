@@ -42,6 +42,9 @@ android {
     }
 
     buildTypes {
+        release {
+            debuggable true
+        }
         debug {
             testCoverageEnabled = true
         }

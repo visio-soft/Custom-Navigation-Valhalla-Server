@@ -4,7 +4,7 @@
             "outputFile": "org.maplibre.navigation.android.navigation.test.libandroid-navigation-mergeDebugUnitTestResources-24:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/aiteam/.gradle/caches/transforms-4/4216f7d71174180f944470f05054f655/transformed/appcompat-1.7.0/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/aiteam/Desktop/gradle-8.12.1/caches/transforms-4/4216f7d71174180f944470f05054f655/transformed/appcompat-1.7.0/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

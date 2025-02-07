@@ -11,3 +11,7 @@
 
 # --- MapLibre ---
 -dontwarn org.maplibre.navigation.android.ui.v5.**
+-keep class org.maplibre.navigation.android.navigation.v5.models.ManeuverModifier$Type { *; }
+-keep class okhttp3.internal.publicsuffix.PublicSuffixDatabase { *; }
+-keep class okhttp3.** { *; }
+

@@ -50,7 +50,7 @@ Make sure to replace `<latest_version>` with the most recent stable versions of 
 
 To use MapLibre, you'll need to add your MapLibre access token and map style. Follow the [MapLibre documentation](https://maplibre.org) for getting started with your token and style configuration.
 
-### 4. Configure Valhalla Routing Engine
+### 4. Configure fefValhalla Routing Engine
 
 Valhalla can be run as a self-hosted server or accessed via a public API. To set it up:
 
@@ -60,7 +60,7 @@ Valhalla can be run as a self-hosted server or accessed via a public API. To set
 Example configuration:
 
 ```java
-val routingEngine = new ValhallaRoutingEngine("https://your-valhalla-api-endpoint")
+val routingEngine = new ValhallaRoutingEngine("https://your-valhalla-api-endpoint");
 ```
 
 ### 5. Implement Routing

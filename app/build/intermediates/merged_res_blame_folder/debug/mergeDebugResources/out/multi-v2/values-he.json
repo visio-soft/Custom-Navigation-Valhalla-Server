@@ -21,6 +21,23 @@
                     }
                 },
                 {
+                    "source": "/Users/aiteam/Desktop/gradle-8.12.1/caches/transforms-4/59e45cce120c9f5038a31de3d939718a/transformed/jetified-android-sdk-11.6.1/res/values-he/values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,179,270,388,493,647,763",
+                        "endColumns": "123,90,117,104,153,115,138",
+                        "endOffsets": "174,265,383,488,642,758,897"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "437,561,652,770,875,1029,1145",
+                        "endColumns": "123,90,117,104,153,115,138",
+                        "endOffsets": "556,647,765,870,1024,1140,1279"
+                    }
+                },
+                {
                     "source": "/Users/aiteam/Downloads/maplibre-navigation-android-main/libandroid-navigation-ui/build/intermediates/packaged_res/debug/packageDebugResources/values-he/values-he.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -35,23 +52,6 @@
                         "startOffsets": "182,245,307,1284,1397,1441,1498,1555",
                         "endColumns": "62,61,75,42,43,56,56,44",
                         "endOffsets": "240,302,378,1322,1436,1493,1550,1595"
-                    }
-                },
-                {
-                    "source": "/Users/aiteam/.gradle/caches/transforms-4/59e45cce120c9f5038a31de3d939718a/transformed/jetified-android-sdk-11.6.1/res/values-he/values-he.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,179,270,388,493,647,763",
-                        "endColumns": "123,90,117,104,153,115,138",
-                        "endOffsets": "174,265,383,488,642,758,897"
-                    },
-                    "to": {
-                        "startLines": "8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "437,561,652,770,875,1029,1145",
-                        "endColumns": "123,90,117,104,153,115,138",
-                        "endOffsets": "556,647,765,870,1024,1140,1279"
                     }
                 },
                 {

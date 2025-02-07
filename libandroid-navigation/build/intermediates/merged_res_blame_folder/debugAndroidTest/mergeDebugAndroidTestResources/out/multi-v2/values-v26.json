@@ -4,7 +4,7 @@
             "outputFile": "org.maplibre.navigation.android.navigation.test.libandroid-navigation-mergeDebugAndroidTestResources-22:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "/Users/aiteam/.gradle/caches/transforms-4/4216f7d71174180f944470f05054f655/transformed/appcompat-1.7.0/res/values-v26/values-v26.xml",
+                    "source": "/Users/aiteam/Desktop/gradle-8.12.1/caches/transforms-4/4216f7d71174180f944470f05054f655/transformed/appcompat-1.7.0/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

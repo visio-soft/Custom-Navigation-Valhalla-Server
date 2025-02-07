@@ -4,7 +4,7 @@
             "outputFile": "org.maplibre.navigation.android.example.app-mergeDebugResources-40:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "/Users/aiteam/.gradle/caches/transforms-4/bde7f36b0eaa849713e92dbffdafeba1/transformed/material-1.12.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "source": "/Users/aiteam/Desktop/gradle-8.12.1/caches/transforms-4/bde7f36b0eaa849713e92dbffdafeba1/transformed/material-1.12.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

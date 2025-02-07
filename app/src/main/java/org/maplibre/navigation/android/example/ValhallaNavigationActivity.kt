@@ -1,4 +1,5 @@
 package org.maplibre.navigation.android.example
+import kotlin.system.exitProcess
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -148,6 +149,7 @@ class ValhallaNavigationActivity :
         destination = Point.fromLngLat(point.longitude, point.latitude)
 
         mapLibreMap.addMarker(MarkerOptions().position(point))
+
         binding.clearPoints.visibility = View.VISIBLE
         calculateRoute()
         return true

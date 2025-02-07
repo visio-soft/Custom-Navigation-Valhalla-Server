@@ -11,6 +11,22 @@ import kotlinx.serialization.Serializable
 object ManeuverModifier {
 
     @Serializable
+    enum class ManeuverModifier(val value: String) {
+        @SerialName("uturn")
+        UTURN("uturn"),
+
+        @SerialName("left")
+        LEFT("left"),
+
+        @SerialName("right")
+        RIGHT("right"),
+
+        @SerialName("unknown")
+        UNKNOWN("unknown")
+    }
+
+
+    @Serializable
     enum class Type(val text: String) {
 
         /**
@@ -20,6 +36,7 @@ object ManeuverModifier {
          */
         @SerialName("uturn")
         UTURN("uturn"),
+
 
         /**
          * Indicates "sharp right" maneuver modifier.
