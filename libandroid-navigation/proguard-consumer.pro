@@ -18,3 +18,5 @@
 -dontwarn com.google.auto.value.**
 -dontwarn com.ryanharter.auto.value.**
 -keep class org.maplibre.navigation.android.navigation.v5.models.ManeuverModifier$Type { *; }
+-keep class com.maplibre.** { *; }
+-keep class com.mapbox.** { *; }

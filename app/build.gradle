@@ -37,6 +37,9 @@ android {
             testCoverageEnabled = false
         }
         release {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
 

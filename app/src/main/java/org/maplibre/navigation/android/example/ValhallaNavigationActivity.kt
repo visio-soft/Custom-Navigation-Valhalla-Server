@@ -26,6 +26,7 @@ import org.maplibre.navigation.android.example.databinding.ActivityNavigationUiB
 import org.maplibre.navigation.android.navigation.ui.v5.NavigationLauncher
 import org.maplibre.navigation.android.navigation.ui.v5.NavigationLauncherOptions
 import org.maplibre.navigation.android.navigation.ui.v5.route.NavigationMapRoute
+import org.maplibre.navigation.android.navigation.v5.models.DirectionsCriteria
 import org.maplibre.navigation.android.navigation.v5.models.DirectionsResponse
 import org.maplibre.navigation.android.navigation.v5.models.DirectionsRoute
 import org.maplibre.navigation.android.navigation.v5.models.RouteOptions
@@ -73,6 +74,10 @@ class ValhallaNavigationActivity :
                 val options = NavigationLauncherOptions.builder()
                     .directionsRoute(route)
                     .shouldSimulateRoute(simulateRoute)
+                    .initialMapCameraPosition(
+                        CameraPosition.Builder()
+                            .target(LatLng(58.3669087,23.5740837,)).build()
+                    )
                     .lightThemeResId(R.style.TestNavigationViewLight)
                     .darkThemeResId(R.style.TestNavigationViewDark)
                     .build()
@@ -98,16 +103,43 @@ class ValhallaNavigationActivity :
         }
     }
 
+    private fun moveRouteLayerToTop(style: Style) {
+        val routeLayerId = "mapbox-navigation-route-layer" // Adjust this if needed
+        val backgroundLayerId = "omman-raster-layer" // Change based on your style
+
+        val routeLayer = style.getLayer(routeLayerId)
+        val backgroundLayer = style.getLayer(backgroundLayerId)
+
+        if (routeLayer != null && backgroundLayer != null) {
+            style.removeLayer(routeLayer)
+            style.addLayerAbove(routeLayer, backgroundLayerId)
+        } else {
+        }
+    }
+
+
     override fun onMapReady(mapLibreMap: MapLibreMap) {
         this.mapLibreMap = mapLibreMap
+        val offlineStylePath = "file:///android_asset/style.json"
+
+        // Load map style from server
+        val styleUrl = getString(R.string.map_style_light)
+
         mapLibreMap.setStyle(
-            Style.Builder().fromUri(getString(R.string.map_style_light))
+            Style.Builder().fromUri(offlineStylePath)
         ) { style ->
             enableLocationComponent(style)
             navigationMapRoute = NavigationMapRoute(binding.mapView, mapLibreMap)
+
+            // Ensure navigation route appears above raster layers
+            moveRouteLayerToTop(style)
+
+            // Add map click listener
             mapLibreMap.addOnMapClickListener(this)
 
-            val targetLocation = LatLng(23.5740837, 58.3669087)
+            // Set initial camera position
+
+            val targetLocation = LatLng(23.65461481, 58.11519054)
             val zoomLevel = 12.0
 
             mapLibreMap.cameraPosition = CameraPosition.Builder()
@@ -169,7 +201,7 @@ class ValhallaNavigationActivity :
             return
         }
 
-        val origin = Point.fromLngLat(58.3669087,23.5740837)
+        val origin = Point.fromLngLat(58.11519054,23.65461481)
         if (TurfMeasurement.distance(origin, destination, TurfConstants.UNIT_METERS) < 50) {
             Timber.d("calculateRoute: distance < 50 m")
             binding.startRouteButton.visibility = View.GONE
@@ -201,8 +233,8 @@ class ValhallaNavigationActivity :
             ),
             "locations" to listOf(
                 mapOf(
-                    "lon" to 58.3669087,
-                    "lat" to 23.5740837,
+                    "lon" to origin.longitude(),
+                    "lat" to origin.latitude(),
                     "type" to "break"
                 ),
                 mapOf(
@@ -233,6 +265,10 @@ class ValhallaNavigationActivity :
             }
 
             override fun onResponse(call: okhttp3.Call, response: okhttp3.Response) {
+
+                println("language")
+                println(language)
+
                 response.use {
                     if (response.isSuccessful) {
                         Timber.e(
@@ -253,7 +289,7 @@ class ValhallaNavigationActivity :
                                     // but currently they are necessary to start the navigation
                                     // and to use the voice instructions.
                                     // Again, this isn't ideal, but it is a requirement of the framework.
-                                    baseUrl = "https://valhalla.routing",
+                                    baseUrl = "http://65.109.128.110:8002/route",
                                     profile = "valhalla",
                                     user = "valhalla",
                                     accessToken = "valhalla",
@@ -261,7 +297,9 @@ class ValhallaNavigationActivity :
                                     bannerInstructions = true,
                                     language = language,
                                     coordinates = listOf(origin, destination),
-                                    requestUuid = "0000-0000-0000-0000"
+                                    requestUuid = "0000-0000-0000-0000",
+                                    annotations = DirectionsCriteria.ANNOTATION_SPEED
+
                                 )
                             )
 
@@ -270,6 +308,10 @@ class ValhallaNavigationActivity :
                             binding.startRouteLayout.visibility = View.VISIBLE
                         }
                     } else {
+
+                        println(response.body!!.string())
+                        println("response.body")
+
                         Timber.e(
                             "calculateRoute Request to Valhalla failed with status code: %s: %s",
                             response.code,
