@@ -6,6 +6,7 @@ import org.maplibre.android.MapLibre;
 
 public class NavigationApplication extends Application {
 
+
   @Override
   public void onCreate() {
     super.onCreate();

@@ -105,20 +105,7 @@ class NavigationUIActivity :
 
     override fun onMapReady(mapLibreMap: MapLibreMap) {
         this.mapLibreMap = mapLibreMap
-        mapLibreMap.setStyle(
-            Style.Builder().fromUri(getString(R.string.map_style_light))
-        ) { style ->
-            enableLocationComponent(style)
-            navigationMapRoute = NavigationMapRoute(binding.mapView, mapLibreMap)
 
-            mapLibreMap.addOnMapClickListener(this)
-
-            Snackbar.make(
-                findViewById(R.id.container),
-                "Tap map to place waypoint",
-                Snackbar.LENGTH_LONG,
-            ).show()
-        }
     }
 
     @SuppressWarnings("MissingPermission")
